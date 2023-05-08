@@ -1,0 +1,17 @@
+// CPP program to find the nth odd number
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to find the nth odd number
+int nthOdd(int n)
+{
+	return (2 * n - 1);
+}
+
+// Driver code
+int main()
+{
+	int n = 10;
+	cout << nthOdd(n);
+	return 0;
+}
